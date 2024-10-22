@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Locations</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #f0f4f8; /* Lighter background */
+        }
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+        }
+        .header {
+            background-color: #00796b; /* Teal */
+            color: white;
+            text-align: center;
+            padding: 10px;
+            width: 100%;
+        }
+        .locations-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin-top: 20px;
+        }
+        .location-card {
+            flex: 0 1 200px; /* Adjusting size of location items */
+            margin: 20px;
+            padding: 20px;
+            background-color: #ffcc80; /* Light orange */
+            color: #333; /* Darker text for contrast */
+            text-align: center;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Added shadow for better visibility */
+        }
+        .footer {
+            background-color: #004d40; /* Darker teal */
+            color: white;
+            text-align: center;
+            padding: 10px;
+            width: 100%;
+            margin-top: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Restaurant Locations</h1>
+        </div>
+        <div class="locations-container">
+            <div class="location-card">
+                <h2>Viking Luxury Buffet</h2>
+                <p>Location: Pasay City</p>
+                <p>Website: www.vikings.ph</p>
+            </div>
+            <div class="location-card">
+                <h2>Antonio's Restaurant</h2>
+                <p>Location: Tagaytay</p>
+                <p>Website: www.antonios.ph</p>
+            </div>
+            <div class="location-card">
+                <h2>Mesa Filipino Moderne</h2>
+                <p>Location: Makati City</p>
+                <p>Website: www.mesafil.ph</p>
+            </div>
+            <div class="location-card">
+                <h2>Manam Comfort Filipino</h2>
+                <p>Location: Quezon City</p>
+                <p>Website: www.manam.ph</p>
+            </div>
+            <div class="location-card">
+                <h2>Ramen Nagi</h2>
+                <p>Location: Various locations</p>
+                <p>Website: www.ramen.ph</p>
+            </div>
+        </div>
+        <div class="footer">
+            <p>Footer Content</p>
+        </div>
+    </div>
+</body>
+</html>

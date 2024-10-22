@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Collection</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #e8e8e8;
+        }
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+        }
+        .header {
+            background-color: #9C27B0;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            width: 100%;
+        }
+        .books-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin-top: 20px;
+        }
+        .book-card {
+            flex: 0 1 200px; /* Changed to ensure cards don't grow too large */
+            margin: 20px;
+            padding: 20px;
+            background-color: #FF9800;
+            color: white;
+            text-align: center;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Added shadow for better visibility */
+        }
+        .footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            width: 100%;
+            margin-top: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Book Collection</h1>
+        </div>
+        <div class="books-container">
+            <div class="book-card">
+                <h2>The Great Gatsby</h2>
+                <p>Author: F. Scott Fitzgerald</p>
+                <p>Genre: Fiction</p>
+            </div>
+            <div class="book-card">
+                <h2>To Kill a Mockingbird</h2>
+                <p>Author: Harper Lee</p>
+                <p>Genre: Fiction</p>
+            </div>
+            <div class="book-card">
+                <h2>1984</h2>
+                <p>Author: George Orwell</p>
+                <p>Genre: Dystopian</p>
+            </div>
+            <div class="book-card">
+                <h2>The Catcher in The Rye</h2>
+                <p>Author: J.D. Salinger</p>
+                <p>Genre: Fiction</p>
+            </div>
+            <div class="book-card">
+                <h2>A Brief History of Time</h2>
+                <p>Author: Stephen Hawking</p>
+                <p>Genre: Non-Fiction</p>
+            </div>
+        </div>
+        <div class="footer">
+            <p>Footer Content</p>
+        </div>
+    </div>
+</body>
+</html>
